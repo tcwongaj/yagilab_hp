@@ -14,7 +14,7 @@ app.controller('urlCheck', ['$scope', function ($scope) {
       return false;
     } else {
       console.log(url);
-      console.log("false");
+      console.log("true");
       return true;
     }
   }
