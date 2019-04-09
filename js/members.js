@@ -19,9 +19,9 @@ app.controller('urlCheck', ['$scope', function ($scope) {
     } else {
       console.log(url);
       console.log("true");
-      return true;
       console.log(n);
       n=n+10;
+      return true;
     }
   }
 
