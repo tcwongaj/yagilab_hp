@@ -14,4 +14,7 @@ app.controller('urlCheck', ['$scope', function ($scope) {
       return true;
     }
   }
+
+  console.log($scope.urlExist);
+
 }])
