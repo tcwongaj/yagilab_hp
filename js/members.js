@@ -9,12 +9,15 @@ app.controller('jsonList', function($scope, $http) {
 app.controller('urlCheck', ['$scope', function ($scope) {
   $scope.urlExist = function(url){
     if (url == null){
+      console.log(url);
+      console.log("false");
       return false;
     } else {
+      console.log(url);
+      console.log("false");
       return true;
     }
   }
 
-  console.log($scope.urlExist);
 
 }])
