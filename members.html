@@ -10,7 +10,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-  <link href="css/template.css" rel="stylesheet">
+  <link href="css/members.css" rel="stylesheet">
   <script src="js/members.js"></script>
 
 </head>
@@ -78,13 +78,13 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item-active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">ホーム <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="research.html">研究</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item-active">
               <a class="nav-link" href="members.html">メンバー</a>
             </li>
             <li class="nav-item">
@@ -121,15 +121,64 @@
         <hr/>
         <div class="main2">   <!-- main content -->
           <div id="maincontent" lang="ja">
-            <div ng-app="myApp" ng-controller="myCtrl">
+            <div ng-app="myApp" ng-controller="jsonList">
 
-              <h4 lang="ja">研究室メンバー</h4>
+              <h4>研究室メンバー</h4>
               <hr class="main">
-
-              {{item}}
               <table>
                 <th>准教授</th>
                 <tr ng-repeat="member in members.staff">
+                  <td ng-controller="urlCheck">
+                    <a ng-show="urlExist({{member.linkjp}})" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <ng-show ng-show="!urlExist({{member.linkjp}})">{{member.namejp}}</ng-show>
+                  </td>
+                  <td ng-controller="urlCheck">
+                    <a ng-show="urlExist({{member.linken}})" href="{{member.linken}}">{{member.nameen}}</a>
+                    <ng-show ng-show="!urlExist({{member.linken}})">{{member.nameen}}</ng-show>
+                  </td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">博士課程学生</th>
+                <tr ng-repeat="member in members.studentp">
+                  <td ng-controller="urlCheck">
+                    <a ng-show="urlExist({{member.linkjp}})" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <ng-show ng-show="!urlExist({{member.linkjp}})">{{member.namejp}}</ng-show>
+                  </td>
+                  <td>{{member.nameen}}</td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">修士課程学生</th>
+                <tr ng-repeat="member in members.studentm">
+                  <td>{{member.namejp}}</td>
+                  <td>{{member.nameen}}</td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">学部生</th>
+                <tr ng-repeat="member in members.studentb">
+                  <td>{{member.namejp}}</td>
+                  <td>{{member.nameen}}</td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">研究生</th>
+                <tr ng-repeat="member in members.studentr">
+                  <td>{{member.namejp}}</td>
+                  <td>{{member.nameen}}</td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">交換留学生</th>
+                <tr ng-repeat="member in members.studente">
+                  <td>{{member.namejp}}</td>
+                  <td>{{member.nameen}}</td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">共同研究員</th>
+                <tr ng-repeat="member in members.researchercoop">
+                  <td>{{member.namejp}}</td>
+                  <td>{{member.nameen}}</td>
+                  <td>{{member.remark}}</td>
+                </tr>
+                <th class="tableheader">東工大特別研究員</th>
+                <tr ng-repeat="member in members.researchspecial">
                   <td>{{member.namejp}}</td>
                   <td>{{member.nameen}}</td>
                   <td>{{member.remark}}</td>

@@ -1,5 +1,4 @@
-{
-	"staff": [{
+{"staff": [{
 			"namejp": "八木　透",
 			"linkjp": "http://www.io.mei.titech.ac.jp/members/yagi/index-j.php",
 			"nameen": "Tohru Yagi",
@@ -9,147 +8,147 @@
 	],
 	"studentp": [{
 			"namejp": "渡邉　ゆり",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Yuri Watanabe",
-			"linken": "",
+			"linken": null,
 			"remark": "社会人ドクター"
 		}, {
 			"namejp": "プラーニャ",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Pranja UPADHYAYA",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "仲田　愛",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Ai NAKADA",
-			"linken": "",
+			"linken": null,
 			"remark": "社会人ドクター"
 		}
 	],
 	"studentm": [{
 			"namejp": "小林　幸太郎",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Koutarou Kobayashi",
-			"linken": "",
+			"linken": null,
 			"remark": "飲み会担当"
 		}, {
 			"namejp": "永井　暁",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Akira Nagai",
-			"linken": "",
+			"linken": null,
 			"remark": "ネットワーク管理担当"
 		}, {
 			"namejp": "シリル",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Tsz Ching Wong",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "アムリ",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Faizal M. Amri",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "シャンチェン",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Xiangqian Du",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "ホウ　ソキ",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Peng Zugui",
-			"linken": "",
+			"linken": null,
 			"remark": "飲み会担当"
 		}, {
 			"namejp": "宮田　啓夢",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Hiromu Miyata",
-			"linken": "",
+			"linken": null,
 			"remark": "ネットワーク管理担当"
 		}, {
 			"namejp": "ジョン",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Jeon SUNGHA",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "グレアム",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Graham RIX",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}
 	],
 	"studentb": [{
 			"namejp": "新井 雄貴",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Yuki Arai",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "川野 鉄平",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Teppei Kawano",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}
 	],
 	"studentr": [{
 			"namejp": "エリック",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Eric REDLINGER",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}
 	],
 	"studente": [{
 			"namejp": "クラウディア",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Claudia TING SHAO",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}, {
 			"namejp": "ジョシュア",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Joshua BLACKWOOD",
-			"linken": "",
-			"remark": ""
+			"linken": null,
+			"remark": null
 		}
 	],
 	"researchercoop": [{
 			"namejp": "ティーラウィット　ウィライプラシトポーン",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Theerawit Wilaiprasitporn",
-			"linken": "",
+			"linken": null,
 			"remark": "神経工学，BCI， 生体信号応用（Vidyasirimedhi Institute of Science and Technology, Rayong, Thailand）"
 		}, {
 			"namejp": "榛葉　健太",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Kenta Shimba",
-			"linken": "",
+			"linken": null,
 			"remark": "神経工学，iPS，Bio-MEMS"
 		}
 	],
 	"researchspecial": [{
 			"namejp": "菅原　路子",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Michiko Sugawara",
-			"linken": "",
+			"linken": null,
 			"remark": "細胞工学（千葉大学）"
 		}, {
 			"namejp": "中谷　裕教",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Hironori Nakatani",
-			"linken": "",
+			"linken": null,
 			"remark": "脳神経科学（東京大学）"
 		}, {
 			"namejp": "宮本　義孝",
-			"linkjp": "",
+			"linkjp": null,
 			"nameen": "Yoshitaka Miyamoto",
-			"linken": "",
+			"linken": null,
 			"remark": "再生医療（国立成育医療研究センター）"
 		}
 	]

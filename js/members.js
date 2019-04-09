@@ -1,10 +1,25 @@
 var app = angular.module('myApp', []);
 
-app.controller('myCtrl', function($scope, $http) {
-  $scope.item= 'test';
-  $http.get('members.json').success(function(data) {
-        $scope.members = data;
+app.controller('jsonList', function($scope, $http) {
+  $http.get('members.json').then(function(response) {
+    $scope.members = response.data;
+  });
 
-    });
+
 
 });
+
+app.controller('urlCheck', ['$scope', function ($scope) {
+
+
+  $scope.urlExist = function(url){
+
+     console.log(url);
+      if (url == null){
+        return false;
+      } else {
+        return true;
+      }
+    }
+
+}])

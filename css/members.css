@@ -142,6 +142,7 @@ p .title{
   color : #483d8b;
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: 1em;
 
 }
 
@@ -154,7 +155,6 @@ p .title{
 hr.main {
   border: 1px solid #483d8b;
   margin-top: 0.5em;
-
 }
 
 
@@ -170,8 +170,13 @@ a.mainurl:hover{
 }
 
 
+th.tableheader{
+  padding-top: 2em;
+}
 
-
+td {
+  padding-bottom: 0.5em;
+}
 
 /*
  * Footer
