@@ -1,154 +1,154 @@
 {"staff": [{
 			"namejp": "八木　透",
-			"linkjp": "1",
+			"linkjp": "index.html",
 			"nameen": "Tohru Yagi",
-			"linken": "2",
+			"linken": "index-en.html",
 			"remark": "神経工学"
 		}
 	],
 	"studentp": [{
 			"namejp": "渡邉　ゆり",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Yuri Watanabe",
-			"linken": null,
+			"linken": "",
 			"remark": "社会人ドクター"
 		}, {
 			"namejp": "プラーニャ",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Pranja UPADHYAYA",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "仲田　愛",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Ai NAKADA",
-			"linken": null,
+			"linken": "",
 			"remark": "社会人ドクター"
 		}
 	],
 	"studentm": [{
 			"namejp": "小林　幸太郎",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Koutarou Kobayashi",
-			"linken": null,
+			"linken": "",
 			"remark": "飲み会担当"
 		}, {
 			"namejp": "永井　暁",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Akira Nagai",
-			"linken": null,
+			"linken": "",
 			"remark": "ネットワーク管理担当"
 		}, {
 			"namejp": "シリル",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Tsz Ching Wong",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "アムリ",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Faizal M. Amri",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "シャンチェン",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Xiangqian Du",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "ホウ　ソキ",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Peng Zugui",
-			"linken": null,
+			"linken": "",
 			"remark": "飲み会担当"
 		}, {
 			"namejp": "宮田　啓夢",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Hiromu Miyata",
-			"linken": null,
+			"linken": "",
 			"remark": "ネットワーク管理担当"
 		}, {
 			"namejp": "ジョン",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Jeon SUNGHA",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "グレアム",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Graham RIX",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}
 	],
 	"studentb": [{
 			"namejp": "新井 雄貴",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Yuki Arai",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "川野 鉄平",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Teppei Kawano",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}
 	],
 	"studentr": [{
 			"namejp": "エリック",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Eric REDLINGER",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}
 	],
 	"studente": [{
 			"namejp": "クラウディア",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Claudia TING SHAO",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}, {
 			"namejp": "ジョシュア",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Joshua BLACKWOOD",
-			"linken": null,
-			"remark": null
+			"linken": "",
+			"remark": ""
 		}
 	],
 	"researchercoop": [{
 			"namejp": "ティーラウィット　ウィライプラシトポーン",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Theerawit Wilaiprasitporn",
-			"linken": null,
+			"linken": "https://www.linkedin.com/in/theerawit-wilaiprasitporn-82b7476a/",
 			"remark": "神経工学，BCI， 生体信号応用（Vidyasirimedhi Institute of Science and Technology, Rayong, Thailand）"
 		}, {
 			"namejp": "榛葉　健太",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Kenta Shimba",
-			"linken": null,
+			"linken": "",
 			"remark": "神経工学，iPS，Bio-MEMS"
 		}
 	],
 	"researchspecial": [{
 			"namejp": "菅原　路子",
-			"linkjp": null,
+			"linkjp": "",
 			"nameen": "Michiko Sugawara",
-			"linken": null,
+			"linken": "",
 			"remark": "細胞工学（千葉大学）"
 		}, {
 			"namejp": "中谷　裕教",
-			"linkjp": null,
+			"linkjp": "https://sites.google.com/site/nakatanihironori/",
 			"nameen": "Hironori Nakatani",
-			"linken": null,
+			"linken": "",
 			"remark": "脳神経科学（東京大学）"
 		}, {
 			"namejp": "宮本　義孝",
-			"linkjp": null,
+			"linkjp": "http://www.ncchd.go.jp/index.php",
 			"nameen": "Yoshitaka Miyamoto",
-			"linken": null,
+			"linken": "",
 			"remark": "再生医療（国立成育医療研究センター）"
 		}
 	]

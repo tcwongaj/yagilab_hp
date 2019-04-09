@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body lang="ja">
   <div class="container">
 
     <!--header-->
@@ -24,13 +24,13 @@
         <div class="row">
           <div class="col-xs-auto col-sm-auto col-md-auto col-lg-6 col-xl-6">
             <h1 class="display-4 font-italic">Yagi Lab</h1>
-            <h1 class="display-4 font-italic"  lang="ja">八木研究室</h1>
+            <h1 class="display-4 font-italic" >八木研究室</h1>
             <p class=".title">Human Centered Science and Biomedical Engineering Graduate Major</p>
             <p class=".title">Department of Mechnical Engineering</p>
             <p class=".title">Tokyo Institute of Technology</p>
-            <p class=".title" lang="ja">東京工業大学</p>
-            <p class=".title" lang="ja">工学院機械系</p>
-            <p class=".title" lang="ja">ライフエンジニアリングコース</p>
+            <p class=".title">東京工業大学</p>
+            <p class=".title">工学院機械系</p>
+            <p class=".title">ライフエンジニアリングコース</p>
           </div>
           <div class="d-none d-sm-none d-md-none d-lg-block col-lg-6 col-xl-6">
             <div id="carouselBanner" class="carousel slide" data-ride="carousel">
@@ -120,7 +120,7 @@
       <div class="container-fluid">
         <hr/>
         <div class="main2">   <!-- main content -->
-          <div id="maincontent" lang="ja">
+          <div id="maincontent">
             <div ng-app="myApp" ng-controller="jsonList">
 
               <h4>研究室メンバー</h4>
@@ -128,59 +128,98 @@
               <table>
                 <th>准教授</th>
                 <tr ng-repeat="member in members.staff">
-                  <td ng-controller="urlCheck">
-                    <a ng-show="urlExist({{member.linkjp}})" href="{{member.linkjp}}">{{member.namejp}}</a>
-                    <ng-show ng-show="!urlExist({{member.linkjp}})">{{member.namejp}}</ng-show>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
                   </td>
-                  <td ng-controller="urlCheck">
-                    <a ng-show="urlExist({{member.linken}})" href="{{member.linken}}">{{member.nameen}}</a>
-                    <ng-show ng-show="!urlExist({{member.linken}})">{{member.nameen}}</ng-show>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
                   </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">博士課程学生</th>
                 <tr ng-repeat="member in members.studentp">
-                  <td ng-controller="urlCheck">
-                    <a ng-show="urlExist({{member.linkjp}})" href="{{member.linkjp}}">{{member.namejp}}</a>
-                    <ng-show ng-show="!urlExist({{member.linkjp}})">{{member.namejp}}</ng-show>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
                   </td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">修士課程学生</th>
                 <tr ng-repeat="member in members.studentm">
-                  <td>{{member.namejp}}</td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
+                  </td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">学部生</th>
                 <tr ng-repeat="member in members.studentb">
-                  <td>{{member.namejp}}</td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
+                  </td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">研究生</th>
                 <tr ng-repeat="member in members.studentr">
-                  <td>{{member.namejp}}</td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
+                  </td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">交換留学生</th>
                 <tr ng-repeat="member in members.studente">
-                  <td>{{member.namejp}}</td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
+                  </td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">共同研究員</th>
                 <tr ng-repeat="member in members.researchercoop">
-                  <td>{{member.namejp}}</td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
+                  </td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
                 <th class="tableheader">東工大特別研究員</th>
                 <tr ng-repeat="member in members.researchspecial">
-                  <td>{{member.namejp}}</td>
-                  <td>{{member.nameen}}</td>
+                  <td>
+                    <a ng-if="member.linkjp !== ''" href="{{member.linkjp}}">{{member.namejp}}</a>
+                    <span ng-if="member.linkjp == ''">{{member.namejp}}</span>
+                  </td>
+                  <td>
+                    <a ng-if="member.linken !== ''" href="{{member.linken}}">{{member.nameen}}</a>
+                    <span ng-if="member.linken == ''">{{member.nameen}}</span>
+                  </td>
                   <td>{{member.remark}}</td>
                 </tr>
               </table>
