@@ -11,6 +11,7 @@ body {
   /**text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);**/
   height: 100%;
   min-height: 100%;
+
 }
 
 @font-face {
@@ -33,7 +34,7 @@ body {
 
  .jumbotron {
    background-color: #4682b4;
-   line-height: 0.9em;
+   line-height: 0.7em;
    color: #ffffff;
  }
 
@@ -131,31 +132,69 @@ p .title{
 
 }
 
-#maintext{
-  margin-top: 1em;
+#main3{
+  /*margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
+  margin-bottom: 1em;*/
+  color : #483d8b;
+  padding-top: 1em;
+  padding-bottom: 1em;
 
 }
 
-.footer{
-  background-color: #4682b4;
-  margin-top: -2em;
-  }
+#maintext{
+  padding-left: 1em;
+  padding-top: 1em;
+}
 
-.contact{
-  margin-top: 4em;
-  margin-right: 1em;
-  margin-bottom: : 0em;
-  margin-left: 2em;
-  color: #ffffff;
 
+hr.main {
+  border: 1px solid #483d8b;
+  margin-top: 0.5em;
 
 }
+
+p .address{
+  font-weight: bold;
+  font-size: 2em;
+}
+
+a.mainurl{
+  color : #fa8072;
+	text-decoration : none;
+}
+
+
+a.mainurl:hover{
+  color : red;
+	text-decoration : none;
+}
+
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+
+
+
 
 /*
  * Footer
  */
 
+ .footer{
+   background-color: #4682b4;
+   margin-top: -2em;
+   }
 
+ .contact{
+   margin-top: 4em;
+   margin-right: 1em;
+   margin-bottom: : 0em;
+   margin-left: 2em;
+   color: #ffffff;
+ }
 /* Custom default button */
