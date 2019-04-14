@@ -134,13 +134,12 @@ p .title{
 
 
 
-#maincontent{
+.main2 #maincontent{
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   margin-bottom: 1em;
   color : #483d8b;
-  font-size: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
 
@@ -170,9 +169,25 @@ a.mainurl:hover{
 	text-decoration : none;
 }
 
+p.caption{
 
+  font-weight : bold;
+	font-size : 0.8em;
+	color : #000000;
 
+}
 
+.nav-pills .nav-item .active{
+  background-color: #4682b4;
+}
+
+.nav-pills .nav-item a.nav-link{
+  color: #483d8b;
+}
+
+.nav-pills .nav-item a.nav-link.active{
+  color: #FFFFFF;
+}
 
 /*
  * Footer

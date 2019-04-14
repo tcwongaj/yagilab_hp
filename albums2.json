@@ -1,0 +1,17 @@
+{
+  "album1": {
+    "title": "album1",
+    "date": "20190101",
+    "path": "album/album1"
+  },
+  "album2": {
+    "title": "album2",
+    "date": "20190102",
+    "path": "album/album2"
+  },
+  "album3": {
+    "title": "album3",
+    "date": "20190103",
+    "path": "album/album3"
+  }
+}

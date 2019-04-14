@@ -1,0 +1,11 @@
+// album 1
+{ "src": "image_01.jpg",                         "title": "album A",  "ID": 1,	"kind":"album" },
+{ "src": "image_01.jpg", "srct": "image_01ts.jpg", "title": "image A1", "ID": 10, "albumID": 1 },
+{ "src": "image_02.jpg", "srct": "image_02ts.jpg", "title": "image A2", "ID": 11, "albumID": 1 },
+{ "src": "image_03.jpg", "srct": "image_03ts.jpg", "title": "image A3", "ID": 12, "albumID": 1 },
+
+// album 2
+{	"src": "image_02.jpg",                         "title": "album B",  "ID": 2,  "kind":"album" },
+{ "src": "image_03.jpg", "srct": "image_03ts.jpg", "title": "image B1", "ID": 20, "albumID": 2 },
+{ "src": "image_02.jpg", "srct": "image_02ts.jpg", "title": "image B2", "ID": 21, "albumID": 2 },
+{ "src": "image_01.jpg", "srct": "image_01ts.jpg", "title": "image B3", "ID": 22, "albumID": 2 }
