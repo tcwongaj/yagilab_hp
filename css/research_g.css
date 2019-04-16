@@ -189,6 +189,19 @@ p.caption{
   color: #FFFFFF;
 }
 
+.nav-tabs .nav-item a.nav-link{
+  color: #483d8b;
+}
+
+a.btn{
+  background-color: #4682b4;
+  color: #FFFFFF;
+}
+
+
+td{
+  padding-right: 1em;
+}
 /*
  * Footer
  */
