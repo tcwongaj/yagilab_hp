@@ -150,9 +150,19 @@ p .title{
   margin-bottom: : 0em;
   margin-left: 2em;
   color: #ffffff;
-
-
 }
+
+a.mainurl{
+  color : #fa8072;
+	text-decoration : none;
+}
+
+
+a.mainurl:hover{
+  color : red;
+	text-decoration : none;
+}
+
 
 /*
  * Footer
