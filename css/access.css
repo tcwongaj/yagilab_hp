@@ -129,10 +129,10 @@ p .title{
 
 .main2{
   background-color: #ffffff;
-
+color : #483d8b;
 }
 
-#main3{
+.main3{
   /*margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
@@ -146,6 +146,8 @@ p .title{
 #maintext{
   padding-left: 1em;
   padding-top: 1em;
+
+
 }
 
 
@@ -179,7 +181,18 @@ a.mainurl:hover{
 
 
 
-
+.mapouter {
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:600px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}
 
 /*
  * Footer
